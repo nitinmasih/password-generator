@@ -1,0 +1,77 @@
+.main-container{
+    
+      max-width: 600px;
+      margin: 15px auto;
+     
+      >h1{
+            text-align: center;
+            width: 380px;
+
+            margin: 15px auto;
+      }
+      .title-btn-container{
+            background-color: aliceblue;
+            color: black;
+            padding: 8px 12px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02rem;
+            font-size: 18px;
+            width: 80%;
+                  margin: auto;
+            justify-content: space-between;
+            >button{
+                  background-color: rgb(5, 117, 83);
+                  padding: 8px;
+                  border: none;
+                  border-radius: 8px;
+                  width: 80px;
+                  color: #fff;
+                  font-size: 16px;
+                  cursor: pointer;
+            }
+      }
+      .charLength{
+            width: 70%;
+            margin: 15px auto;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            gap: 8px;
+            padding-bottom: 24px;
+      }
+      .generateBtn{
+            background-color: rgb(5, 117, 83);
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            
+         
+      }
+      .checkboxes{
+            display: grid;
+            grid-template-columns: auto auto;
+            
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin: auto;
+            width: 90%;
+            > div{
+                  display: flex;
+                  gap: 5px;
+                  padding-bottom: 25px;
+            }
+      }
+}
